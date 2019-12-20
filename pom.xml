@@ -26,29 +26,7 @@
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
-      <distributionManagement>
 
-       <repository>
-
-        <id>user-release</id>
-
-        <name>User Project Release</name>
-
-        <url>http://192.168.237.130:8080/nexus/content/repositories/releases/</url>
-
-      </repository>
-
-        <snapshotRepository>
-
-           <id>user-snapshots</id>
-
-           <name>User Project SNAPSHOTS</name>
-
-           <url>http://192.168.237.130:8080/nexus/content/repositories/snapshots/</url>
-
-        </snapshotRepository>
-
-    </distributionManagement>
     <build>
         <plugins>
             <plugin>
